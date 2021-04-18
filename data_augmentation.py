@@ -6,22 +6,10 @@ from imgaug import augmenters as iaa
 augmented_image_dir = "./train/"
 
 species = [
-    "blasti",
-    "bonegl",
-    "brhkyt",
-    "cbrtsh",
-    "cmnmyn",
-    "gretit",
-    "hilpig",
-    "himbul",
-    "himgri",
-    "hsparo",
-    "indvul",
-    "jglowl",
-    "lbicrw",
-    "mgprob",
-    "rebimg",
-    "wcrsrt",
+    "GANG GANG COCKATOO",
+    "ALEXANDRINE PARAKEET",
+    "RAINBOW LORIKEET",
+    "SULPHUR CRESTED COCKATOO"
 ]
 
 
