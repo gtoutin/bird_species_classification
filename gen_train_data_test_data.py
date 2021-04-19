@@ -5,22 +5,10 @@ from os import listdir
 from keras.utils import np_utils
 
 species = [
-    "blasti",
-    "bonegl",
-    "brhkyt",
-    "cbrtsh",
-    "cmnmyn",
-    "gretit",
-    "hilpig",
-    "himbul",
-    "himgri",
-    "hsparo",
-    "indvul",
-    "jglowl",
-    "lbicrw",
-    "mgprob",
-    "rebimg",
-    "wcrsrt",
+    "GANG GANG COCKATOO",
+    "ALEXANDRINE PARAKEET",
+    "RAINBOW LORIKEET",
+    "SULPHUR CRESTED COCKATOO"
 ]
 
 datapath = "./"
@@ -42,7 +30,7 @@ def gen_data():
 
         # Samples Location
         train_data = join(datapath, "train/" + bird_specie)
-        val_data = join(datapath, "valid/" + bird_specie)
+        val_data = join(datapath, "validation/" + bird_specie)
         test_data = join(datapath, "test/" + bird_specie)
 
         # Samples Files
